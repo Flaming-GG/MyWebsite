@@ -3,8 +3,12 @@ body
     background-color: #31e8d6;
     text-align: center;
     font-family: Emblema;
+    align-items: center;
 }
 .kuribohPic
 {
     border-radius: 8%;
+    align-items: center;
+    height: 250px;
+    width: 250px;
 }
