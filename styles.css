@@ -17,3 +17,28 @@ body
     height: 250px;
     width: 250px;
 }
+.ColorButton
+{
+    margin-top: 15px;
+    display: block;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    width: 240px;
+}
+.ColorButton:hover
+{
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    transform: scale(1.1);
+}
+.ColorButton:active
+{
+    transform: scale(1.5);
+    box-shadow: none;
+}

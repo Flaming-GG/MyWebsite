@@ -6,11 +6,12 @@ function ChangeColor() {
     if (RandomColor === "#000000")
     {
         document.getElementById("text_01").style.color = "#FFFFFF";
-        document.getElementById("title").style.color = "#FFFFFF"
+        document.getElementById("title").style.color = "#FFFFFF";
     }
     if (RandomColor === "#FFFFFF" || RandomColor === "#31e8d6")
     {
         document.getElementById("text_01").style.color = "#000000";
+        document.getElementById("title").style.color = "#000000";
     }
 
     
